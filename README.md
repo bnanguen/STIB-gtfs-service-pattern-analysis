@@ -23,6 +23,17 @@ Key tasks:
 - K-Means clustering
 - QoS assessment
 
+### 02 - Delay and Punctuality Analysis
+
+Analysis of service delays, punctuality indicators, and operational performance.
+
+### 03 - Time Group Detection
+
+Automatic identification of service periods using change-point detection.
+ 
+### 04 - Service Pattern Analysis
+
+Clustering and visualization of recurring transit service patterns
 ## Technologies
 
 - Python
