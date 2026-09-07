@@ -2,11 +2,11 @@
 
 Analysis of STIB public transport service patterns using GTFS data, headway computation, time-group detection, clustering, and service regularity assessment.
 
-## Project Overview
+## Overview
 
-This project analyzes public transport service patterns in the STIB-MIVB network using GTFS schedule data.
+This project analyzes STIB (Brussels public transport) GTFS data to understand network structure, service frequency, temporal demand patterns, and stop usage characteristics.
 
-The objective is to understand service regularity, headway distribution, and temporal operating patterns across bus, tram, and metro lines.
+The analysis combines schedule data, route information, and stop-level metrics to identify operational patterns and assess service regularity across the network.
 
 ## Notebooks
 
@@ -45,7 +45,15 @@ Clustering and visualization of recurring transit service patterns
 - GTFS-kit
 - Ruptures
 - Scikit-learn
+## Key Findings
 
+- Bus routes represent over 75% of the network.
+- Route 7 is the busiest route by trip count.
+- Peak service demand occurs around 17:00.
+- Weekday service levels significantly exceed weekend levels.
+- DE BROUCKERE is one of the most connected transfer hubs.
+- Median network headway is approximately 11 minutes.
+- Metro services offer the highest frequency.
 ## Repository Structure
 
 ```text
